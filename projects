@@ -42,19 +42,37 @@
             <div class="inner">
               <h3 class="masthead-brand">Aar.onL/owe</h3>
               <ul class="nav masthead-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
+                <li><a href="owe">Home</a></li>
+                <li class="active"><a href="#">Projects</a></li>
                 <li><a href="mailto:alowe@haverford.edu">Contact</a></li>
               </ul>
-            </div>
+            </div> <!--class="inner"-->
+          </div> <!--class="masthead clearfix"-->
+          <!---<h1> Current Projects </h1>
+          <div class="row projects">
+              <h2>Topological Data Analysis</h2>
+              <p> I am currently writing a dual-thesis in math and computer science researching the application of persistent homology to machine learning.
           </div>
-
-          <div class="inner cover">
-            <h1 class="cover-heading">Aaron Lowe</h1>
-            <p class="lead">A Senior attending Haverford College. Double majoring in Math and Computer Science.</p>
-            <p class="lead">
-              <a href="projects.html" class="btn btn-lg btn-default">Learn more</a>
-            </p>
+          <div class="row projects">
+              <h2>See Elegans</h2>
+              <p> Working with the Biology Department, I am writing software to track C. Elegans and extract features for automating the analysis of the worms' motion. 
+            </div>-->
+          <h1> Past Projects </h1>
+          <div class="row projects">
+              <h2>Security of Salted Hashes</h2>
+              <p> If you aren't salting your password hashes, you should be! Check out our proof <a class="special" href="http://www.columbia.edu/~emv2126/"> here</a> that salting your hash makes precomputation attacks like rainbow tables more difficult.
+          </div>
+          <div class="row projects">
+            <h2>Legendrian Knots</h2>
+            <p> Modified gridlink software for computing <a class = "special" href=http://www.math.duke.edu/~ng/atlas/>linearized contact homology</a> of legendrian knots. Contact me if you would like details on the software.</p>
+          </div>
+          <div class="row projects">
+              <h2>Puzzling Reality</h2>
+              <p> Working with Adam Van Aken, we made a demo for a game wherein the laws of physics bend to your will. Check back soon for the demo.
+          </div>
+          <div class="row projects">
+              <h2>Tournament Software</h2>
+              <p> Working with Adam Van Aken, we created software to manage 1,200+ person <a class="special" href="http://blogs.haverford.edu/haverblog/2012/03/20/and-the-winner-is-and-its-skee-ball-tournament-opens-in-the-gallery/">skee-ball tournament.</a>
           </div>
 
           <div class="mastfoot">

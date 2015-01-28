@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^aar\.onl$
+RewriteRule (.*) http://www.aar.onl/$1 [R=301,L]
+RewriteRule ^$ owe [L]

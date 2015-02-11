@@ -1,6 +1,6 @@
 #deny from all
-RewriteEngine On
+#RewriteEngine On
 #RewriteRule ^$ /owe [L, R=301]
-RewriteCond %{HTTP_HOST} ^aar\.onl$
-RewriteRule (.*) aar.onl/$1 [R=301,L]
-RewriteRule ^$ owe [L]
+#RewriteCond %{HTTP_HOST} ^aar\.onl$
+#RewriteRule (.*) aar.onl/$1 [R=301,L]
+#RewriteRule ^$ owe [L]
